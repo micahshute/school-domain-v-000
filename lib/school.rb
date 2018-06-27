@@ -14,13 +14,15 @@ class School
     else
       @roster[grade] = [name]
     end
-
   end
+
+  def grade(grade)
+    return @roster[grade]
+  end
+
+  
 end
 
-def grade(grade)
-  return @roster[grade]
-end
 
 school = School.new("Bayside High School")
 school.add_student("bob", 9)
