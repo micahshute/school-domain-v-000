@@ -20,7 +20,13 @@ class School
     return @roster[grade]
   end
 
-  
+  def sort
+    @roster.each do |k,v|
+      v.sort!
+    end
+  end
+
+
 end
 
 
