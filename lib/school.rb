@@ -22,4 +22,4 @@ class School
 end
 
 school = School.new("Bayside High School")
-school.add_student("bob", 9s)
+school.add_student("bob", 9)
