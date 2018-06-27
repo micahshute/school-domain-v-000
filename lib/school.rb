@@ -13,6 +13,7 @@ class School
     if @roster.keys.include?(grade)
       puts "roster has grade"
       @roster[grade] << name
+      puts @roster
     else
       puts "roster doesn't have grade"
       @roster[grade] = [name]
