@@ -9,18 +9,17 @@ class School
   end
 
   def add_student(name, grade)
-    puts "#{name}, #{grade}"
     if @roster.keys.include?(grade)
-      puts "roster has grade"
       @roster[grade] << name
-      puts @roster
     else
-      puts "roster doesn't have grade"
       @roster[grade] = [name]
-      puts @roster
     end
 
   end
+end
+
+def grade(num)
+  @roster[num]
 end
 
 school = School.new("Bayside High School")
