@@ -17,11 +17,9 @@ class School
       puts "roster doesn't have grade"
       @roster[grade] = [name]
     end
-    
+
   end
 end
 
 school = School.new("Bayside High School")
 school.add_student("bob", 9s)
-
-
