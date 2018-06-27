@@ -16,6 +16,7 @@ class School
     else
       puts "roster doesn't have grade"
       @roster[grade] = [name]
+      puts @roster
     end
 
   end
