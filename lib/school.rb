@@ -25,3 +25,4 @@ end
 school = School.new("Bayside High School")
 school.add_student("bob", 9)
 school.add_student("tim", 9)
+puts school.grade(9)
